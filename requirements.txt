@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+sqlite-utils
+openai
+pytest
+requests
