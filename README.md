@@ -57,3 +57,6 @@ RECALL FROM journal WHERE type="note"
 
 MIT License — free to use, fork, and contribute.
 
+⚠️ Developer Preview — not production ready.
+
+
