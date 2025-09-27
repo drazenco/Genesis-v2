@@ -53,6 +53,43 @@ RECALL FROM journal WHERE type="note"
 
 ---
 
+```
+                ┌──────────────┐
+                │  Genesis-v2  │   ← central hub (engine + API)
+                └───────┬──────┘
+                        │
+        ┌───────────────┼────────────────┐
+        │               │                │
+ ┌────────────┐   ┌────────────┐   ┌───────────────┐
+ │   GMQL     │   │   LifeDB   │   │    Rosetta    │
+ │ jezik upita│   │ memory core│   │ privacy/consent│
+ └─────┬──────┘   └──────┬─────┘   └──────┬────────┘
+       │                 │                │
+       ▼                 ▼                ▼
+ ┌────────────┐   ┌────────────┐   ┌───────────────┐
+ │    GGA     │   │    GAA     │   │ Genesis-Rosetta│
+ │ algebra gen│   │ algebra ag │   │ manifest/white │
+ └────────────┘   └────────────┘   └───────────────┘
+
+```
+- **[GMQL](../GMQL)** — query language for memory  
+- **[LifeDB](../LifeDB)** — memory layer (SQLite → pgvector)  
+- **[Rosetta](../Rosetta)** — privacy, consent, audit layer  
+- **[GGA](../GGA)** — Genesis General Algebra  
+- **[GAA](../GAA)** — Genesis Agent Algebra  
+- **[Genesis-algebra](../Genesis-algebra)** — connects GGA and GAA  
+- **[Genesis-Rosetta](../Genesis-Rosetta)** — manifest / whitepaper  
+
+## 🚀 Reference Template
+
+📂 **[GCS](https://github.com/drazenco/GCS)** — starter kit for all new repos:  
+- OpenAPI + JSON Schema  
+- FastAPI reference server (SQLite)  
+- Conformance kit (STORE/RECALL/FORGET/CONSENT/EXPORT tests)  
+- Journal Bot demo (GDPR use-case)  
+- Docker Compose + Makefile
+
+- 
 ## 📜 License
 
 MIT License — free to use, fork, and contribute.
