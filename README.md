@@ -73,13 +73,14 @@ RECALL FROM journal WHERE type="note"
 
 
 ```
-- **[GMQL](../GMQL)** — query language for memory  
-- **[LifeDB](../LifeDB)** — memory layer (SQLite → pgvector)  
-- **[Rosetta](../Rosetta)** — privacy, consent, audit layer  
-- **[GGA](../GGA)** — Genesis General Algebra  
-- **[GAA](../GAA)** — Genesis Agent Algebra  
-- **[Genesis-algebra](../Genesis-algebra)** — connects GGA and GAA  
-- **[Genesis-Rosetta](../Genesis-Rosetta)** — manifest / whitepaper  
+
+- **[GMQL](https://github.com/drazenco/GMQL)** — query language for memory  
+- **[LifeDB](https://github.com/drazenco/LifeDB)** — memory layer (SQLite → pgvector)  
+- **[Rosetta](https://github.com/drazenco/Rosetta)** — privacy, consent, audit layer  
+- **[GGA](https://github.com/drazenco/GGA)** — Genesis General Algebra  
+- **[GAA](https://github.com/drazenco/GAA)** — Genesis Agent Algebra  
+- **[Genesis-algebra](https://github.com/drazenco/Genesis-algebra)** — bridges GGA and GAA  
+- **[Genesis-Rosetta](https://github.com/drazenco/Genesis-Rosetta)** — manifest / whitepaper  
 
 ## 🚀 Reference Template
 
