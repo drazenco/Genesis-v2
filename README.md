@@ -62,14 +62,15 @@ RECALL FROM journal WHERE type="note"
         │               │                │
  ┌────────────┐   ┌────────────┐   ┌───────────────┐
  │   GMQL     │   │   LifeDB   │   │    Rosetta    │
- │ jezik upita│   │ memory core│   │ privacy/consent│
+ │ query lang │   │ memory core│   │ privacy/consent│
  └─────┬──────┘   └──────┬─────┘   └──────┬────────┘
        │                 │                │
        ▼                 ▼                ▼
  ┌────────────┐   ┌────────────┐   ┌───────────────┐
  │    GGA     │   │    GAA     │   │ Genesis-Rosetta│
- │ algebra gen│   │ algebra ag │   │ manifest/white │
+ │ gen algebra│   │ agent alg. │   │ manifest/white │
  └────────────┘   └────────────┘   └───────────────┘
+
 
 ```
 - **[GMQL](../GMQL)** — query language for memory  
